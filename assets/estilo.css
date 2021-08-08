@@ -5,6 +5,7 @@ body {
     /* height: 80vw; */
     align-items: center;
     flex-direction: column;
+    padding-top: 5px;
   
 }
 @font-face{
@@ -14,10 +15,10 @@ body {
 #content_chronometer {
     background-color: #005c7d;
     display: grid;
-    height: 600px;
+    height: 500px;
     width: 300px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px 400px 50px 50px;
+    grid-template-rows: 100px 300px 50px 50px;
     border-radius: 12px;
     border: 2px solid #0b4b5f;
 }
