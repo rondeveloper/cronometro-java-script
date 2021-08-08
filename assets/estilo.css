@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    /* height: 80vw; */
+    align-items: center;
+    flex-direction: column;
+  
+}
+@font-face{
+    font-family:"monoitalic";
+    src: url("digital-7\ \(mono\ italic\).ttf")
+}
+#content_chronometer {
+    background-color: #005c7d;
+    display: grid;
+    height: 600px;
+    width: 300px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 400px 50px 50px;
+    border-radius: 12px;
+    border: 2px solid #0b4b5f;
+}
+
+#start, #reset {
+    height: 40px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 4px;
+}
+#reset{
+    background-color: rgb(255, 255, 255);
+    margin-top: 4px;
+}
+
+#box_4 {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box_1 > .nmilisegundos {
+font-size: 37px;
+
+
+}
+
+#stop,
+#lap {
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    border-radius: 6px;
+    line-height: 40px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+#stop {
+    background-color: rgb(255, 255, 255);
+}
+
+#lap {
+    background-color: rgb(255, 255, 255);
+}
+
+#box_3 {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1/-1;
+}
+#box_1 {
+    background-color: #026685;
+    cursor: pointer;
+    grid-column: 1/-1;
+    width: auto;
+    height: auto;
+    line-height: 100px;
+    text-align: left;
+    font-size: 70px;
+    border-radius: 12px 12px 0 0;
+    padding-left: 48px;
+    font-family: "monoitalic";
+
+}
+
+#box_2 {
+    grid-column: 1/-1;
+    background-color: #90acb4;
+    
+}
+
+#titles_lap {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    padding-top: 5px;
+}
+#content_lap{
+    /* font-family: "monoitalic"; */
+    font-size: 20px;
+    opacity: 0.8;
+    overflow-y: auto;
+    height: 375px;
+}
+.copy {
+    background-color: #c5c5c5;
+    color: #fff;
+    padding: 4px;
+    margin-top: 7px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
